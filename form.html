@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form input types</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <!-- A form with input fields with text -->
+      <label>Firstname:</label><br />
+      <input type="text" id="fname" name="name" /><br />
+      <label>Lastname:</label><br />
+      <input type="text" id ="lname" name="name" /><br><hr>
+
+      <!-- input type with radio-->
+      <input type="radio" id="html" name="fav-language" />
+      <label>HTML</label><br>
+      <input type="radio" id="css" name="fav-language" />
+      <label>CSS</label><br>
+      <input type="radio" id="js" name="fav-language" />
+      <label>JavaScript</label><br><br>
+      <input type="submit" name="SUBMIT" /><hr>
+
+<h3>Which vehicle do you want?</h3>
+      <input type="checkbox" id="bike" name="suzuki" />
+      <label>SUZUKI</label><br>
+
+      <input type="checkbox" id="bike" name="yamaha" />
+      <label for="vehicle">YAMAHA</label><br>
+
+      <input type="checkbox" id="bike" name="honda" />
+      <label for="vehicle2">HONDA</label><br><br>
+
+      <input type="submit" value="SUBMIT" /><hr>
+
+      <!-- select element defines a drop-down list -->
+      <label>Choose a car:</label>
+      <select id="cars" name="cars">
+        <option value="volvo">VOLVO</option>
+        <option value="saab">SAAB</option>
+        <option value="fiat">FIAT</option>
+        <input type="submit" value="Submit" /><br><br>
+
+        <label for="note">You can add here your notes:</label><br>
+        <textarea name="note"></textarea>
+      </select>
+    </form>
+  </body>
+</html>
